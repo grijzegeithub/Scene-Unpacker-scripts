@@ -12,7 +12,11 @@ This repository contains scripts for unpacking archives in which releases are di
 
 Usually, when downloading archives containing material from varese scenes, there are many small archives or parts of archives and other files inside (for example, files `.nfo`, `.sfv`, `.diz`).
 
-I don't fully understand why this is done - why compress files into an archive divided into parts, and compress all parts individually, and then put all these parts in 1 more shared archive.
+I don't fully understand why this is done 
+but I presume alot of parts for files make server to server fxp transfers faster, scene rls is all about being first with the content, presumably files and transfer speed optimisation between server 2 server transfer that allows unlimited simultaneous transfers... my 2 cents
+
+
+- why compress files into an archive divided into parts, and compress all parts individually, and then put all these parts in 1 more shared archive.
 
 Such widespread archiving and nesting of archives creates significant difficulties when manually unpacking, especially on macOS, where most archivers forcibly create a folder with the archive name and place unpacked files in it (and if there is also a folder with the same name in the root of the archive, then manual unpacking turns into hell).
 
