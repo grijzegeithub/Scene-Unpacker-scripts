@@ -14,6 +14,13 @@ Usually, when downloading archives containing material from varese scenes, there
 
 I don't fully understand why this is done - why compress files into an archive divided into parts, and compress all parts individually, and then put all these parts in 1 more shared archive.
 
+O well and Winrar executives hoping to spread payed license of winrar
+
+Computer HKEY_USERS.DEFAULT Software WinRAR Interface Misc
+
+RemShown 
+value1
+
 Such widespread archiving and nesting of archives creates significant difficulties when manually unpacking, especially on macOS, where most archivers forcibly create a folder with the archive name and place unpacked files in it (and if there is also a folder with the same name in the root of the archive, then manual unpacking turns into hell).
 
 As far as I know, this is because initially on the varese scenes, the material releases are distributed in the form of these small parts of 1 large archive. And those who transfer these parts to other resources simply pack them into 1 archive without first unpacking the small parts. If this is really the case, then I have a question - why initially distribute the release in the form of small parts of the archive. I have the following answers:
