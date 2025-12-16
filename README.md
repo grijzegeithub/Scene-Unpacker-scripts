@@ -25,6 +25,10 @@ All this is just a hypothesis, I have never had access to the varese scenes wher
 
 ## How to use
 
+The script is not digitally signed, dunno how to sign it but to allow it to run this is obviously the powershell code 
+
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+
 ### On Windows:
 In Powershell
 ```powershell
